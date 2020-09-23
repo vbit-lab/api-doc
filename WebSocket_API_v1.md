@@ -9,8 +9,8 @@ VBIT官方的生产环境：
 
 ```txt
 官方网址： https://www.vbit.one
-行情服务： wss://ws-v1-01.vbit.me/v1/market
-交易服务： wss://ws-v1-01.vbit.me/v1/trade
+行情服务： wss://cdn01.mcdzcloud.com/v1/market
+交易服务： wss://cdn01.mcdzcloud.com/v1/trade
 ```
 
 
