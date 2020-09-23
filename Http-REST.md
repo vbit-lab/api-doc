@@ -1087,4 +1087,4 @@ http GET https://cdn01.mcdzcloud.com/v1/rest/GetOrd20List?sym_list=BTC.BTC,BTC.U
 
 ## 错误码定义
 
-错误码在REST和WS两种API中定义是一致的，请参考 WebSocket_API_for_v1.md 里的定义和说明。
+错误码在REST和WS两种API中定义是一致的，请参考 WebSocket_API_v1.md 里的定义和说明。
