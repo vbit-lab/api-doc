@@ -19,8 +19,8 @@ VBIT官方的生产环境：
 1. 获取交易对/合约列表： GetAssetD
 
 ```javascript
-// 发送请求消息
-{"req":"GetAssetD","rid":"0","expires":1537706670830}
+// 发送请求消息, 此处的 vp:30 为固定参数
+{"req":"GetAssetD","args": {"vp": 30},"rid":"0","expires":1537706670830}
 
 // 收到返回消息
 {
@@ -211,7 +211,7 @@ type V2AssetCfg struct {
     "req":"GetCompositeIndex",
     "rid":"1",
     "expires":1537706670831,
-    "args":{}
+    "args": {"vp": 30}  // 此处的 vp:30 为固定参数
 }
 
 // 收到返回消息, 成功返回的结构是字符串数组
